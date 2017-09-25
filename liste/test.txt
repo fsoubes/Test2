@@ -1,0 +1,9 @@
+
+#proglist: main.o maliste.o
+#	gcc $^ -o $@
+
+#maliste.o: maliste.c $(headers)
+#	gcc -c $< -o maliste.o
+
+#main.o: main.c $(headers)
+#	gcc -c $< -o main.o
