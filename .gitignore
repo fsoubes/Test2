@@ -1,5 +1,5 @@
 # ignore executable
-*.p
+*.o
 
 #remove
 git rm --cached *.o
