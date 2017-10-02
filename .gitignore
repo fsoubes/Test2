@@ -1,0 +1,8 @@
+# ignore executable
+*.p
+
+#remove
+git rm --cached *.o
+
+#
+git commit -m "rmved"
